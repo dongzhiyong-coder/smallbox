@@ -42,6 +42,10 @@ Box.prototype.init = function () {
 //运行实例
 start(10);
 //定义运行方法
+/**
+ *
+ * @param num 表示生成小方块的数量
+ */
 function start(num){
     var container = document.getElementById('container');
     //循环前 先清空
